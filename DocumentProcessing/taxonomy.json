@@ -1,0 +1,615 @@
+﻿{
+  "DataContractVersion": "1.0",
+  "DocumentTypes": [
+    {
+      "DocumentTypeId": "Documents.BillingStatement.billing_statemnt1",
+      "Group": "Documents",
+      "Category": "Billing Statement",
+      "Name": "billing_statemnt1",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "Documents.BillingStatement.billing_statemnt1.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Documents.BillingStatement.billing_statemnt1.acc-number",
+          "FieldName": "acc-number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.BillingStatement.billing_statemnt1.acc-name",
+          "FieldName": "acc-name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.BillingStatement.billing_statemnt1.bussiness-style",
+          "FieldName": "bussiness-style",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.BillingStatement.billing_statemnt1.address",
+          "FieldName": "address",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.BillingStatement.billing_statemnt1.TIN",
+          "FieldName": "TIN",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.BillingStatement.billing_statemnt1.bill-no",
+          "FieldName": "bill-no",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.BillingStatement.billing_statemnt1.bill-date",
+          "FieldName": "bill-date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.BillingStatement.billing_statemnt1.table",
+          "FieldName": "table",
+          "IsMultiValue": false,
+          "Type": "Table",
+          "DeriveFieldsFormat": "",
+          "Components": [
+            {
+              "FieldId": "Documents.BillingStatement.billing_statemnt1.table.waybill",
+              "FieldName": "waybill",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Documents.BillingStatement.billing_statemnt1.table.date",
+              "FieldName": "date",
+              "IsMultiValue": false,
+              "Type": "Date",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Documents.BillingStatement.billing_statemnt1.table.customer-ref",
+              "FieldName": "customer-ref",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Documents.BillingStatement.billing_statemnt1.table.destination",
+              "FieldName": "destination",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Documents.BillingStatement.billing_statemnt1.table.amount",
+              "FieldName": "amount",
+              "IsMultiValue": false,
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            }
+          ],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.BillingStatement.billing_statemnt1.vat-exempt-sales",
+          "FieldName": "vat-exempt-sales",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.BillingStatement.billing_statemnt1.zero-rated-sales",
+          "FieldName": "zero-rated-sales",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.BillingStatement.billing_statemnt1.vat-amount",
+          "FieldName": "vat-amount",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.BillingStatement.billing_statemnt1.sub-total",
+          "FieldName": "sub-total",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.BillingStatement.billing_statemnt1.grand-total",
+          "FieldName": "grand-total",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "Documents.DispatcherReport.Dispatcher-report",
+      "Group": "Documents",
+      "Category": "Dispatcher Report",
+      "Name": "Dispatcher-report",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "Documents.DispatcherReport.Dispatcher-report.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Documents.DispatcherReport.Dispatcher-report.IR-number",
+          "FieldName": "IR-number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.DispatcherReport.Dispatcher-report.RD-date",
+          "FieldName": "RD-date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.DispatcherReport.Dispatcher-report.cust-code",
+          "FieldName": "cust-code",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.DispatcherReport.Dispatcher-report.cust-name",
+          "FieldName": "cust-name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.DispatcherReport.Dispatcher-report.cust-addr",
+          "FieldName": "cust-addr",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.DispatcherReport.Dispatcher-report.SO-number",
+          "FieldName": "SO-number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.DispatcherReport.Dispatcher-report.ship-date",
+          "FieldName": "ship-date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.DispatcherReport.Dispatcher-report.remarks",
+          "FieldName": "remarks",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.DispatcherReport.Dispatcher-report.table",
+          "FieldName": "table",
+          "IsMultiValue": false,
+          "Type": "Table",
+          "DeriveFieldsFormat": "",
+          "Components": [
+            {
+              "FieldId": "Documents.DispatcherReport.Dispatcher-report.table.item-code",
+              "FieldName": "item-code",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Documents.DispatcherReport.Dispatcher-report.table.qty-cs",
+              "FieldName": "qty-cs",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [
+                "f"
+              ]
+            },
+            {
+              "FieldId": "Documents.DispatcherReport.Dispatcher-report.table.qty-pc",
+              "FieldName": "qty-pc",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Documents.DispatcherReport.Dispatcher-report.table.qty-total",
+              "FieldName": "qty-total",
+              "IsMultiValue": false,
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Documents.DispatcherReport.Dispatcher-report.table.UOM",
+              "FieldName": "UOM",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Documents.DispatcherReport.Dispatcher-report.table.batch-no",
+              "FieldName": "batch-no",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Documents.DispatcherReport.Dispatcher-report.table.exp-date",
+              "FieldName": "exp-date",
+              "IsMultiValue": false,
+              "Type": "Date",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Documents.DispatcherReport.Dispatcher-report.table.prod-date",
+              "FieldName": "prod-date",
+              "IsMultiValue": false,
+              "Type": "Date",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            }
+          ],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.DispatcherReport.Dispatcher-report.total-qty-CS",
+          "FieldName": "total-qty-CS",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.DispatcherReport.Dispatcher-report.total-qty-PC",
+          "FieldName": "total-qty-PC",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "Documents.BillingStatement.summary-of-delivery",
+      "Group": "Documents",
+      "Category": "Billing Statement",
+      "Name": "summary-of-delivery",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "Documents.BillingStatement.summary-of-delivery.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Documents.BillingStatement.summary-of-delivery.company-name",
+          "FieldName": "company-name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.BillingStatement.summary-of-delivery.company-address",
+          "FieldName": "company-address",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.BillingStatement.summary-of-delivery.date",
+          "FieldName": "date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.BillingStatement.summary-of-delivery.bill-no",
+          "FieldName": "bill-no",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Documents.BillingStatement.summary-of-delivery.table",
+          "FieldName": "table",
+          "IsMultiValue": false,
+          "Type": "Table",
+          "DeriveFieldsFormat": "",
+          "Components": [
+            {
+              "FieldId": "Documents.BillingStatement.summary-of-delivery.table.pick-up-date",
+              "FieldName": "pick-up-date",
+              "IsMultiValue": false,
+              "Type": "Date",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Documents.BillingStatement.summary-of-delivery.table.delivery-update",
+              "FieldName": "delivery-update",
+              "IsMultiValue": false,
+              "Type": "Date",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Documents.BillingStatement.summary-of-delivery.table.str-reference",
+              "FieldName": "str-reference",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Documents.BillingStatement.summary-of-delivery.table.src-location",
+              "FieldName": "src-location",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Documents.BillingStatement.summary-of-delivery.table.to-location",
+              "FieldName": "to-location",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Documents.BillingStatement.summary-of-delivery.table.shipment-waybill",
+              "FieldName": "shipment-waybill",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Documents.BillingStatement.summary-of-delivery.table.weight",
+              "FieldName": "weight",
+              "IsMultiValue": false,
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            }
+          ],
+          "SetValues": []
+        }
+      ]
+    }
+  ],
+  "Groups": [
+    {
+      "Name": "Documents",
+      "Categories": [
+        "Billing Statement",
+        "Dispatcher Report"
+      ]
+    },
+    {
+      "Name": "UiPath",
+      "Categories": [
+        "MLModel"
+      ]
+    }
+  ],
+  "SupportedLanguages": [
+    {
+      "Name": "Undetermined Language",
+      "Code": "und"
+    },
+    {
+      "Name": "Bulgarian",
+      "Code": "bul"
+    },
+    {
+      "Name": "Cantonese",
+      "Code": "yue"
+    },
+    {
+      "Name": "Danish",
+      "Code": "dan"
+    },
+    {
+      "Name": "Dutch",
+      "Code": "nld"
+    },
+    {
+      "Name": "English",
+      "Code": "eng"
+    },
+    {
+      "Name": "French",
+      "Code": "fra"
+    },
+    {
+      "Name": "Georgian",
+      "Code": "kat"
+    },
+    {
+      "Name": "German",
+      "Code": "deu"
+    },
+    {
+      "Name": "Greek",
+      "Code": "ell"
+    },
+    {
+      "Name": "Hebrew",
+      "Code": "heb"
+    },
+    {
+      "Name": "Hindi",
+      "Code": "hin"
+    },
+    {
+      "Name": "Italian",
+      "Code": "ita"
+    },
+    {
+      "Name": "Japanese",
+      "Code": "jpn"
+    },
+    {
+      "Name": "Korean",
+      "Code": "kor"
+    },
+    {
+      "Name": "Macedonian",
+      "Code": "mkd"
+    },
+    {
+      "Name": "Mandarin",
+      "Code": "zho"
+    },
+    {
+      "Name": "Marathi",
+      "Code": "mar"
+    },
+    {
+      "Name": "Norwegian",
+      "Code": "nor"
+    },
+    {
+      "Name": "Polish",
+      "Code": "pol"
+    },
+    {
+      "Name": "Portuguese",
+      "Code": "por"
+    },
+    {
+      "Name": "Romanian",
+      "Code": "ron"
+    },
+    {
+      "Name": "Russian",
+      "Code": "rus"
+    },
+    {
+      "Name": "Serbian",
+      "Code": "srp"
+    },
+    {
+      "Name": "Spanish",
+      "Code": "spa"
+    },
+    {
+      "Name": "Swedish",
+      "Code": "swe"
+    },
+    {
+      "Name": "Telugu",
+      "Code": "tel"
+    }
+  ]
+}
